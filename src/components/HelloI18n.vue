@@ -47,7 +47,6 @@ export default {
   methods: {
     changeLocale: function() {
       this.$i18n.locale = this.locale;
-      console.log(this.$i18n.locale);
       localStorage.setItem("locale", this.locale); //儲存切換的語系
     }
   },
